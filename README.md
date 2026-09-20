@@ -1,8 +1,8 @@
-# 📊 Flipkart — Customer Orders & Product Sales Analytics Dashboard
+# 📊 Flipkart - Customer Orders & Product Sales Analytics Dashboard
 
-An end-to-end **sales analytics project** built on a star-schema data model, analyzing Flipkart-style e-commerce transactions — covering customer behavior, product performance, sales trends, profitability, and delivery efficiency.
+An end-to-end **sales analytics project** built on a star-schema data model, analyzing Flipkart-style e-commerce transactions - covering customer behavior, product performance, sales trends, profitability, and delivery efficiency.
 
-Includes the **source dataset (Excel)**, a **star-schema data model**, and is ready to plug into **Power BI / Excel** for dashboard building.
+Includes the **source dataset (Excel)**, a **star-schema data model**, and is ready to plug into **Power BI** for dashboard building.
 
 ---
 
