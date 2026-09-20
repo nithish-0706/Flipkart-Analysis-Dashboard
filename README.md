@@ -167,7 +167,7 @@ erDiagram
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/flipkart-sales-analytics-dashboard.git
+   git clone https://github.com/nithish-0706/Flipkart-Analytics-Dashboard.git
    cd flipkart-sales-analytics-dashboard
    ```
 
