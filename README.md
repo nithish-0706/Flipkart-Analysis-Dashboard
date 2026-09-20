@@ -2,7 +2,7 @@
 
 An end-to-end **sales analytics project** built on a star-schema data model, analyzing Flipkart-style e-commerce transactions — covering customer behavior, product performance, sales trends, profitability, and delivery efficiency.
 
-Includes the **source dataset (Excel)**, a **star-schema data model**, and is ready to plug into **Power BI / Tableau / Excel** for dashboard building.
+Includes the **source dataset (Excel)**, a **star-schema data model**, and is ready to plug into **Power BI / Excel** for dashboard building.
 
 ---
 
@@ -10,32 +10,31 @@ Includes the **source dataset (Excel)**, a **star-schema data model**, and is re
 
 | | |
 |---|---|
-| **Domain** | E-Commerce (Flipkart-style) |
+| **Domain** | E-Commerce (Flipkart) |
 | **Model Type** | Star Schema (1 Fact + 3 Dimensions) |
-| **Source File** | `Flipkart_Data_Records.xlsx` |
+| **Source File** | `Flipkart Data Records.xlsx` |
 | **Fact Table Rows** | ~5,000 order line items |
 | **Customers** | ~1,200 |
 | **Products** | ~450 |
 | **Date Range Coverage** | `Dim Date` — day-level calendar table |
-| **Tools** | Excel / Power BI / Tableau |
+| **Tools** | Excel / Power BI |
 
 ---
 
 ## 🗂️ Project Structure
 
-```
-flipkart-sales-analytics-dashboard/
+```Flipkart — Customer Orders & Product Sales Analytics Dashboard/
 │
 ├── README.md                          # Project documentation (this file)
 │
 ├── data/
-│   └── Flipkart_Data_Records.xlsx     # Source workbook (4 sheets: Fact + 3 Dims)
+│   └── Flipkart Data Records.xlsx     # Source workbook (4 sheets: Fact + 3 Dims)
 │
 ├── model/
-│   └── Data_Model.html                # Star-schema ER diagram (Mermaid)
+│   └── Data Model.png                 # Star-schema ER diagram (Mermaid)
 │
 ├── dashboard/
-│   └── Flipkart_Sales_Dashboard.pbix  # Power BI dashboard file (add after building)
+│   └── Flipkart.pbix                  # Power BI dashboard file (add after building)
 │
 └── docs/
     └── screenshots/                   # Dashboard preview images (optional)
@@ -77,7 +76,7 @@ erDiagram
   }
 ```
 
-A classic **Kimball-style star schema** — one central fact table (`Fact Orders`) surrounded by three dimension tables (`Dim Customer`, `Dim Product`, `Dim Date`), enabling fast, flexible slicing of sales data by customer, product, and time.
+ **star schema** — one central fact table (`Fact Orders`) surrounded by three dimension tables (`Dim Customer`, `Dim Product`, `Dim Date`), enabling fast, flexible slicing of sales data by customer, product, and time.
 
 ---
 
@@ -153,7 +152,7 @@ A classic **Kimball-style star schema** — one central fact table (`Fact Orders
 
 ## 🎯 Business Questions This Model Answers
 
-- 📈 What are the monthly / quarterly / yearly sales & profit trends?
+- 📈 What are the monthly/ yearly sales & profit trends?
 - 🏆 Which product categories and brands drive the most revenue and profit?
 - 👥 Who are the top customers by spend, segment, or city/zone?
 - 💳 Which payment mode is most preferred, and does it affect order value?
@@ -174,7 +173,7 @@ A classic **Kimball-style star schema** — one central fact table (`Fact Orders
 
 2. **Open `data/Flipkart_Data_Records.xlsx`** — it contains 4 ready-to-use sheets: `Fact Orders`, `Dim Customer`, `Dim Product`, `Dim Date`.
 
-3. **Load into Power BI / Tableau**
+3. **Load into Power BI /**
    - Import all 4 sheets as separate tables.
    - Create relationships per the star schema above:
      - `Fact Orders[Customer ID]` → `Dim Customer[Customer ID]`
@@ -227,7 +226,7 @@ YoY Sales Growth % =
 ## 👤 Author
 
 **Name : Nithish**
-📧 nithishjrp@gmail.com · 🔗 [LinkedIn](https://linkedin.com/nithish-jrp/) · 💻 [GitHub](https://github.com/nithish-0706)
+📧 nithishjrp@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/nithish-jrp/) · 💻 [GitHub](https://github.com/nithish-0706)
 
 ---
 
